@@ -14,9 +14,7 @@ from langchain.prompts import PromptTemplate
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
 # Load environment variables
-load_dotenv()
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 # Constants
 BASE_CHROMA_DB_DIR = "db1/"
 CHROMA_LOCK_FILE = "db1.lock"
