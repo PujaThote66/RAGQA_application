@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+filelock
+uuid
+python-dotenv
+sentence-transformers
+chromadb
+PyPDF2
+openai
